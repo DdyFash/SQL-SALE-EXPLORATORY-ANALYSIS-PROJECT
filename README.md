@@ -150,3 +150,26 @@ FROM [sales_data1]
 WHERE SALES_CHANNEL = 'ONLINE' 
 GROUP BY PAYMENT_METHOD 
 ORDER BY USAGE_COUNT DESC;
+
+# 📈 Sales Analysis Report
+
+## Objective:
+To explore and analyze sales data for strategic decision-making using SQL queries.
+
+## Key Insights:
+
+- **Top Sales Representatives**:  
+  The analysis identifies the top-performing sales reps based on total sales, helping management recognize and reward high performers.
+
+- **Regional Sales Trends**:  
+  The regional sales query identifies areas of high demand, allowing the company to target marketing or adjust stock levels.
+
+- **Sales Performance Over Time**:  
+  By breaking down sales by year and month, this helps to track growth or decline, informing strategic planning.
+
+- **Product Category Analysis**:  
+  Understanding which product categories performed best or worst over specific periods helps to optimize inventory and marketing efforts.
+
+- **Payment Method & Sales Channel Trends**:  
+  Analyzing payment methods and sales channels (e.g., online vs. offline) provides insights into consumer behavior and preferences.
+
