@@ -150,6 +150,7 @@ FROM [sales_data1]
 WHERE SALES_CHANNEL = 'ONLINE' 
 GROUP BY PAYMENT_METHOD 
 ORDER BY USAGE_COUNT DESC;
+```
 
 # 📈 Sales Analysis Report
 
